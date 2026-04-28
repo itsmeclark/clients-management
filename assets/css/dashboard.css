@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.title_contianer {
+    position: fixed;
+    top: 20px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.main-container {
+    width: 81vw;
+    height: 500px;
+    background-color: #F7F7F7;
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-container .inside-container {
+    margin: 10px 0 10px 10px;
+    width: 660px;
+    height: 82vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inside-container .total-clients {
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #0f1f6b, #2a49c6);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.total-clients p {
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.total-clients p:nth-child(2) {
+    font-size: 70px;
+    margin: 10px 0 0 15px;
+}
+.total-clients p:nth-child(3) {
+    font-size: 13px;
+    margin: 10px 0 0 15px;
+    color: #50FF87;
+}
+.total-clients .icon-arrowup {
+    background-color: white;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 13px;
+}
+.total-clients .icon-arrowup i {
+    color: black;
+    transform: rotate(45deg);
+}
+
+.inside-container .total-earnings {
+    border: solid 1px black;
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+.total-earnings p {
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.total-earnings p:nth-child(2) {
+    font-size: 30px;
+    margin: 50px 0 0 15px;
+}
+.total-earnings p:nth-child(3) {
+    font-size: 13px;
+    margin: 40px 0 0 15px;
+}
+.total-earnings .icon-arrowup {
+    background-color: black;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    right: 13px;
+}
+.total-earnings .icon-arrowup i {
+    color: white;
+    transform: rotate(45deg);
+}
+.inside-container .pending-task {
+    border: solid 1px black;
+    width: 650px;
+    height: 260px;
+    border-radius: 10px;
+}
+.clients-container {
+    width: 355px;
+    height: 81.5vh;
+    border: solid 1px black;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}

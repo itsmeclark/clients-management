@@ -1,3 +1,28 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+
 .navbar{
-    color: blue;
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+}
+.navbar div {
+    margin: 30px;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar #dashboard a{
+    color: #102C98;
 }
